@@ -1,0 +1,7 @@
+CREATE TABLE comments(
+    id MEDIUMINT NOT NULL AUTO_INCREMENT, 
+    comment VARCHAR(255) NOT NULL,
+User VARCHAR(25) NOT NULL, 
+    date_added DATETIME NOT NULL,
+    checked TINYINT(1) NOT NULL DEFAULT 0,
+    PRIMARY KEY (id));

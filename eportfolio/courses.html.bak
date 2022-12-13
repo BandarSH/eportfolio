@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style2.css">
+
+    <title>Bandar's Porfolio</title>
+</head>
+<body>
+ <header><!-- header start -->
+        <nav class="navbar navbar-expand-lg fixed-top"><!-- nav start -->
+            <div class="container">
+                <a class="navbar-brand" href="index.html">MyPortfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+                </button>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="Courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AboutMe.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ContactMe.html">Contact Me</a></li>
+                    
+                </ul>
+                </div>
+            </div>
+        </nav><!-- nav end -->
+
+       
+    </header><!-- header end -->
+       
+         <div class="header_fixed">
+          <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>S No.</th>
+                    <th>Course Name</th>
+                    <th>Course Number</th>
+                    <th>Credits</th>
+                    <th>Department</th>
+                    <th>Syllabus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>General Biology</td>
+                    <td>BIO-11O</td>
+                    <td>3</td>
+                    <td>Faculty Of Science</td>
+                    <td><a href="https://meshafi.kau.edu.sa/Pages-BIO110syllabus.aspx"><button>View</button></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>General Chemistry</td>
+                    <td>CHEM-110</td>
+                    <td>3</td>
+                    <td>Faculty Of Science</td>
+                    <td><a href="https://www.kau.edu.sa/Files/0054924/files/30023_CHEM%20110%20Syllabus.pdf"><button>View</button></a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>General Statistics</td>
+                    <td>STAT-110</td>
+                    <td>3</td>
+                    <td>Faculty Of Science</td>
+                    <td><a href="STAT_110.pdf"><button>View</button></a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Communication Skills</td>
+                    <td>COMM-101</td>
+                    <td>3</td>
+                    <td>Faculty Of Communication & Media</td>
+                    <td><a href="https://founyear.kau.edu.sa/Files/210100/Files/138104_Communication%20Skills%20110.pdf"><button>View</button></a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Computer Skills</td>
+                    <td>CPIT-100</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://galdweik.kau.edu.sa/Pages-cpit100-syllabus1.aspx"><button>View</button></a></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>English Language</td>
+                    <td>ELI-104</td>
+                    <td>3</td>
+                    <td>Faculty of Arts & Humanities</td>
+                    <td><a href="ELI-104.pdf"><button>View</button></a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>General Mathematics</td>
+                    <td>MATH-110</td>
+                    <td>3</td>
+                    <td>Faculty Of Science</td>
+                    <td><a href="https://www.kau.edu.sa/Files/0016425/Subjects/Math_110_Syllabus_2012t1.pdf"><button>View</button></a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>General Physics</td>
+                    <td>PHYS-110</td>
+                    <td>3</td>
+                    <td>Faculty Of Science</td>
+                    <td><a href="https://phys.kau.edu.sa/pages-phys-110-Syllabus.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>Arabic Lamguage 1</td>
+                    <td>ARAB-101</td>
+                    <td>3</td>
+                    <td>Faculty of Arts & Humanities</td>
+                    <td><a href="https://fcitr-it.kau.edu.sa/pages-arab-101-E.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>10</td>
+                    <td>Introduction to Programming</td>
+                    <td>CS-201</td>
+                    <td>4</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://kallehaibi.kau.edu.sa/Pages-Introduction-to-programming-using-Java.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>11</td>
+                    <td>Islamic Culture 1</td>
+                    <td>ISLS-101</td>
+                    <td>2</td>
+                    <td>Faculty of Arts & Humanities</td>
+                    <td><a href="https://fcitr-it.kau.edu.sa/Pages-ISLS-101-E.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>12</td>
+                    <td>Saudi Political System</td>
+                    <td>PS-111</td>
+                    <td>3</td>
+                    <td>Faculty of Economics & Management</td>
+                    <td><a href="https://www.kau.edu.sa/Files/0015756/Subjects/(%D9%85%D9%81%D8%B1%D8%AF%D8%A7%D8%AA%20PS%20111).pdf"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>13</td>
+                    <td>Programming 1</td>
+                    <td>CPCS-202</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPCS-202)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>14</td>
+                    <td>Introduction to computing</td>
+                    <td>CPIT-201</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-201)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>15</td>
+                    <td>Scientific Writing Methods</td>
+                    <td>CPIT-221</td>
+                    <td>2</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-221)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>16</td>
+                    <td>Islamic Culture 2</td>
+                    <td>ISLS-201</td>
+                    <td>2</td>
+                    <td>Faculty of Arts & Humanities</td>
+                    <td><a href="https://fcitr-it.kau.edu.sa/pages-ISLS-201-E.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>17</td>
+                    <td>Probaility Theory</td>
+                    <td>STAT-210</td>
+                    <td>3</td>
+                    <td>Faculty Of Science</td>
+                    <td><a href="https://fcitr-is.kau.edu.sa/pages-STAT-210-E.aspx"><button>View</button></a></td>
+                </tr>
+
+
+                <tr>
+                    <td>18</td>
+                    <td>Arabic Lamguage 2</td>
+                    <td>ARAB-201</td>
+                    <td>3</td>
+                    <td>Faculty of Arts & Humanities</td>
+                    <td><a href="https://fcitr-it.kau.edu.sa/pages-arab-201-E.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>19</td>
+                    <td>Programming 2</td>
+                    <td>CPCS-203</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPCS-203)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>20</td>
+                    <td>Intermittent Compositions</td>
+                    <td>CPCS-222</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPCS-222)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>21</td>
+                    <td>IT Principles</td>
+                    <td>CPIT-220</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-220)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>22</td>
+                    <td>Islamic Culture 3</td>
+                    <td>ISLS-301</td>
+                    <td>2</td>
+                    <td>Faculty of Arts & Humanities</td>
+                    <td><a href="https://fcitr-it.kau.edu.sa/pages-ISLS-301-E.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>23</td>
+                    <td>General Opinion</td>
+                    <td>COM-204</td>
+                    <td>3</td>
+                    <td>Faculty Of Communication & Media</td>
+                    <td><a href="https://www.kau.edu.sa/Show_Subject.aspx?SN=620&Lng=AR"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>24</td>
+                    <td>Data Structures</td>
+                    <td>CPCS-204</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPCS-204)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>25</td>
+                    <td>Introduction to Software Systems Project Management</td>
+                    <td>CPIS-334</td>
+                    <td>2</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIS-334)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>26</td>
+                    <td>Computer Organization & Architecture</td>
+                    <td>CPIT-210</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-210)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>27</td>
+                    <td>Islamic Culture 4</td>
+                    <td>ISLS-401</td>
+                    <td>2</td>
+                    <td>Faculty of Arts & Humanities</td>
+                    <td><a href="https://fcitr-it.kau.edu.sa/pages-ISLS-401-E.aspx"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>28</td>
+                    <td>Databases 1</td>
+                    <td>CPIT-240</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-240)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>29</td>
+                    <td>Systems Analysis & Design</td>
+                    <td>CPIT-250</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-250)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>30</td>
+                    <td>Computer Drawing</td>
+                    <td>CPIT-285</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-285)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>31</td>
+                    <td>Software Engineering</td>
+                    <td>CPIT-251</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-251)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>32</td>
+                    <td>Operating Systems</td>
+                    <td>CPIT-260</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-260)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>33</td>
+                    <td>Human & Computer Interaction</td>
+                    <td>CPIT-280</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-280)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>34</td>
+                    <td>Information Technology & Management</td>
+                    <td>CPIT-330</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-330)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>35</td>
+                    <td>Computer Networks</td>
+                    <td>CPIT-370</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-370)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>36</td>
+                    <td>Multimedia Technology</td>
+                    <td>CPIT-380</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-380)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>37</td>
+                    <td>Assessment Of Needs & Technology</td>
+                    <td>CPIT-435</td>
+                    <td>2</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-435)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>38</td>
+                    <td>Software Design Models</td>
+                    <td>CPIT-252</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-252)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>39</td>
+                    <td>Selected Topics in Science Technology</td>
+                    <td>CPIT-490</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-490)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>40</td>
+                    <td>Advanced Programming</td>
+                    <td>CPIT-305</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-305)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>41</td>
+                    <td>Network Adminstartion</td>
+                    <td>CPIT-470</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-470)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>42</td>
+                    <td>Database Adminstartion</td>
+                    <td>CPIT-345</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-345)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>43</td>
+                    <td>Senior Project 1</td>
+                    <td>CPIT-498</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-498)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>44</td>
+                    <td>Internet Applications</td>
+                    <td>CPIT-405</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-405)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>45</td>
+                    <td>Information Topics & Issues</td>
+                    <td>CPIS-428</td>
+                    <td>2</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIS-428)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+                <tr>
+                    <td>46</td>
+                    <td>Senior Project 2</td>
+                    <td>CPIT-499</td>
+                    <td>3</td>
+                    <td>Faculty Of Computing & Information Technology</td>
+                    <td><a href="https://fcit.kau.edu.sa/aims/runReportAPI2.php?REP_ID=3&FL_TYPE=pdf&CLG_ID=1&PRA_STR=(PARAM1:18)%7C(PARAM2:2)%7C(PARAM3:3)%7C(PARAM4:BINDER)%7C(PARAM6:CPIT-499)%7C(PARAM5:0)%7C(PARAM7:)%7C(P_DESFORMAT:PDF)%7C(P_RDF_FILENAME:BINDER)%7C(P_OUTPUT_FILENAME:Syllabus)"><button>View</button></a></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <br></br>
+        <br></br>
+        <br></br>
+    </div>
+    </main>
+    
+</body>
+</html>
